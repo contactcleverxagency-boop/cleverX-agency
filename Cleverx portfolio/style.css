@@ -1,0 +1,1097 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: image-set("saraf.avif");
+    color: white;
+    font-family: "Mulish", sans-serif;
+}
+
+/* HEADER */
+
+a{
+    text-decoration: none;
+}
+.headertext {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 15px auto;
+    width: 90%;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+li {
+    cursor: pointer;
+    color: gray;
+}
+
+li:hover {
+    color: white;
+}
+
+
+/* HERO SECTION */
+.bodytext {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container2 {
+    display: inline-block;
+    padding: 6px 15px;
+    font-size: 15px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.head123,
+.head12 {
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.para1,
+.para2 {
+    color: gray;
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+/* BUTTON */
+.button01,
+.button02 {
+    padding: 12px 18px;
+    border-radius: 13px;
+    border: 1px solid;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.button01 {
+    background-color: #F54927;
+    border-color: #F54927;
+    color: white;
+}
+
+.button02 {
+    background-color: #F54927;
+    border-color: #F54927;
+    color: white;
+    margin-left: 10px;
+}
+
+.button01:hover {
+    background-color: black;
+    color: wheat;
+}
+
+.button02:hover {
+    background-color: black;
+    color: burlywood;
+}
+
+/* VIDEO */
+video {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 25px;
+    border: 1px solid gray;
+    z-index: 1;
+}
+
+
+/* CENTER SECTION FIX */
+.container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+/* HEADERS */
+.trust {
+    color: gray;
+    margin-top: 40px;
+}
+
+.container1 {
+    padding: 6px 15px;
+    font-size: 15px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.offer {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.container4 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+/* SERVICE GRID */
+.services-grid {
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+/* SERVICE BOX */
+.service-box {
+    border: 1px solid gray;
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.service-box p {
+    margin-top: 15px;
+    color: gray;
+    line-height: 1.6;
+}
+
+.more {
+    text-align: right;
+    margin-top: 20px;
+    color: gray;
+}
+
+.more:hover {
+    color: white;
+}
+
+/*bu12*/
+
+.bu12 h5 {
+    font-size: 30px;
+    margin-top: 19px;
+    margin-bottom: 14px;
+}
+
+.bu12 h2 {
+    padding: 6px 15px;
+    font-size: 15px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 70px;
+    display: inline-block;
+
+}
+
+.bu12 p {
+    color: gray;
+}
+
+.bu12 {
+    text-align: center;
+}
+
+/*Service gride 2*/
+
+.services-grid2 {
+    border: gray 1px solid;
+    height: 100px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.services-grid2 h3 {
+    display: inline;
+}
+
+.ex {
+    color: #F54927;
+}
+
+.services-grid2 p {
+    color: gray;
+    margin-top: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.services-grid2 h3 {
+    font-size: 40px;
+}
+
+.services-grid02 {
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+/*image and button*/
+
+.imgbutton img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 25px;
+    border: 1px solid gray;
+}
+
+.imgbutton button {
+    background-color: whitesmoke;
+    border: gray 0.5px solid;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imgbutton button:hover {
+    color: gray;
+    background-color: black;
+}
+
+/*why cleverx*/
+
+.whycleverx {
+    text-align: center;
+    border: gray 0.6px solid;
+    background-color: rgb(24, 24, 24);
+    width: 98%;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.whycleverx h2 {
+    padding: 6px 15px;
+    font-size: 8px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 70px;
+    display: inline-flex;
+    margin-left: 17px;
+}
+
+.h301 {
+    font-size: 38px;
+    margin: 9px auto;
+    padding-left: 9px
+}
+
+.whycleverx p {
+    color: white;
+}
+
+
+.whycleverxund {
+    border: 0.6px solid gray;
+    background-color: black;
+    width: 50%;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 13px;
+}
+
+.whycleverxund h3 {
+    color: red;
+}
+
+.whycleverx p {
+    padding-top: 15px;
+}
+
+.h301 {
+    padding-top: 15px;
+}
+
+
+/*our works*/
+
+.ourwork {
+    margin-top: 150px;
+    margin-bottom: 90px;
+    gap: 25px;
+}
+
+.ourwork h3 {
+    display: inline-block;
+    padding: 6px 15px;
+    font-size: 15px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.ourwork h4 {
+    margin-top: 18px;
+    font-size: 35px;
+}
+
+.ourwork p {
+    margin-top: 15px;
+    color: gray;
+}
+
+/*our work box*/
+
+.ourworkbox {
+    border: 0.6px solid gray;
+    border-radius: 15px;
+    background-color: rgb(19, 18, 18);
+    align-items: flex-start;
+    width: 500px;
+
+}
+
+.text h3 {
+    cursor: pointer;
+}
+
+.text h3:hover {
+    color: #F54927;
+}
+
+.text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.ourworkbox1 {
+    display: inline;
+    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 180px;
+    margin-top: 0%;
+    cursor: pointer;
+
+}
+
+.text img {
+    border: gray 0.6px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 390px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.text img:hover {
+    height: 330px;
+    width: 420px;
+    transition: 900ms;
+}
+
+.text h3 {
+    margin-top: 30px;
+}
+
+.text p {
+    color: gray;
+    margin-top: 13px;
+}
+
+/*buttonou*/
+
+.buttonno button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    background-color: orange;
+    border: orange 1px solid;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.buttonno button:hover {
+    background-color: transparent;
+    color: gray;
+    border: white 1px solid;
+}
+
+.hr0 {
+    margin-top: 40px;
+    width: 98%;
+    color: gray;
+    border-radius: 15px;
+    border: gray 2px solid;
+}
+
+/*pricing*/
+
+.starter {
+    margin-top: 15px;
+    text-align: center;
+    
+    
+}
+
+.starter h3 {
+    border: gray 1.8px solid;
+    width: fit-content;
+    display: inline-block;
+    padding: 13px 18px;
+    border-radius: 25px;
+    color: gray;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.starter h4 {
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.starter p {
+    margin-top: 15px;
+    color: gray;
+}
+
+/*strater plan*/
+
+.price{
+    background-color: rgb(29, 29, 29);
+    border: gray 1px solid;
+    margin-top: 85px;
+    width: 98%;
+    height: 880px;
+    border-radius: 15px;
+    margin-left: 12px;
+}
+.planpbox{
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+
+.starterplan {
+    text-align: start;
+    border: gray 1px solid;
+    width: fit-content;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    
+}
+
+.starterplan{
+    margin-top: 45px;
+}
+
+.starterplan:hover{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: white 2px solid;
+}
+.starterplan button{
+    padding: 15px;
+    background-color: transparent;
+    color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+.starterplan button:hover{
+    color: brown;
+
+}
+.starterplan h4 {
+    color: yellow;
+    font-size: 13px;
+    border: gray 1px solid;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.starterplan h2 {
+    padding-top: 15px;
+}
+
+.planp {
+    padding-top: 15px;
+    color: gray;
+}
+
+.hr1 {
+    margin-top: 15px;
+    color: rgb(113, 113, 113);
+}
+
+.planp1 {
+    padding-top: 15px;
+    color: gray;
+    padding-bottom: 15px;
+}
+
+.planp2, .planp3{
+    display: inline;
+    padding-top: 19px;
+}
+
+.planp2{
+    color: #F54927;
+}
+.planp3{
+    padding-left: 10px;
+
+}
+
+.planp4, .planp5{
+    display: inline;
+    padding-top: 19px;
+}
+
+.planp4{
+    color: #F54927;
+}
+.planp5{
+    padding-left: 10px;
+
+}
+
+
+
+.planp6, .planp7{
+    display: inline;
+    padding-top: 19px;
+}
+
+.planp6{
+    color: #F54927;
+}
+.planp7{
+    padding-left: 10px;
+
+}
+
+
+
+.planp8, .planp9{
+    display: inline;
+    padding-top: 19px;
+}
+
+.planp8{
+    color: #F54927;
+}
+.planp9{
+    padding-left: 10px;
+
+}
+
+
+
+.planp10, .planp11{
+    display: inline;
+    padding-top: 19px;
+}
+
+.planp10{
+    color: #F54927;
+}
+.planp11{
+    padding-left: 10px;
+
+}
+
+
+
+/*imgf before footer*/
+.imgfgh{
+    justify-content:space-around;
+    margin-top: 250px;
+}
+.imgf{
+    margin-top: 49px;
+    width: 900px;
+    height: fit-content;
+    border: 1px rgb(83, 81, 81) solid;
+    align-self: auto;
+    background-image: image-set("saraf.avif");
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.imgf h2{
+    margin-top: 150px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.imgf h3{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.imgf p{
+    padding-top: 10px;
+    color: gray;
+}
+
+.b01 , .b02{
+    margin-top: 15px;
+    padding: 15px;
+    margin-bottom: 150px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.b01{
+    background-color:#F54927;
+    border: #F54927 1px solid;
+    border-radius: 15px;
+}
+
+.b01:hover{
+    background-color: black;
+    border: rgb(73, 72, 72) 1px sold;
+    color: gray;
+    transition: .99.9s;
+}
+
+.b02{
+    background-color: black;
+    border: white 1px solid;
+    color: white;
+    border-radius: 15px;
+    
+}
+
+.b02:hover{
+    background-color: transparent;
+    border: 1px gray solid;
+    transition: .99.9s;
+    color: gray;
+}
+
+
+/*footer*/
+
+.footer{
+    background-color: rgb(27, 26, 26);
+    margin-top: 30%;
+    height: 460px;
+
+}
+
+.footercon1{
+    height: 320px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    margin-left: 30px;
+
+}
+.footercon1 h2{
+    padding-left: 3%;
+    padding-top: 17px;
+
+   
+}
+
+.footercon1 p{
+    color: gray;
+    padding-left: 17px;
+    margin-top: 15px;
+}
+
+.pages, .pages01{
+    margin-left: 15px;
+    width: 250px;
+    height: 250px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+}
+
+
+.pages p, .pages01{
+    margin-top: 10px;
+}
+
+.pages p{
+    cursor: pointer;
+    color: gray;
+}
+.pages p:hover{
+    color: white;
+}
+
+.pages01 p{
+    cursor: pointer;
+    color: gray;
+}
+.pages01 p:hover{
+    color: white;
+}
+
+.footer{
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    
+}
+
+.footercon1{
+    margin-top: 135px;
+}
+
+.pages,.pages01{
+    margin-top: 135px;
+    margin-left: 190px;
+}
+
+.pages01 p{
+    margin-top: 15px;    
+}
+
+.hrr{
+    width: 100%;
+}
+
+/*foot*/
+
+.fft{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgb(27, 26, 26);
+}
+
+.foot, .foot4{
+    text-align: center;
+}
+
+.foot1, .foot4{
+    color: gray;
+}
+
+
+/* RESPONSIVE - CORRECTED SECTION */
+@media (max-width: 600px) {
+
+    .headertext {
+        flex-direction: column;
+        gap: 10px;
+        width: 95%;
+        /* Fix: Prevent header overflow */
+    }
+
+    /* RESPONSIVE - MOBILE HAMBURGER NAVBAR */
+    @media (max-width: 600px) {
+        .headertext {
+            flex-direction: column;
+            gap: 10px;
+            width: 95%;
+            position: relative;
+            /* For hamburger positioning */
+        }
+
+        /* Hide desktop menu, show hamburger */
+        ul {
+            display: none;
+            /* Hide menu by default on mobile */
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: black;
+            padding: 20px;
+            border-radius: 0 0 15px 15px;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        /* Show menu when active */
+        ul.active {
+            display: flex;
+        }
+
+        /* Hamburger Icon */
+        .hamburger {
+            display: block !important;
+            /* Show hamburger on mobile */
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 5px 0;
+            transition: 0.3s;
+        }
+
+        /* Hamburger animation */
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+
+        /* Your existing fixes */
+        .ourwork0 {
+            justify-content: center;
+        }
+
+        .head123,
+        .head12 {
+            font-size: 32px;
+        }
+
+        video {
+            width: 100%;
+        }
+
+        .services-grid {
+            grid-template-columns: 1fr;
+            width: 95%;
+        }
+
+        .but {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .whycleverxund {
+            width: 90%;
+        }
+
+        .ourworkbox1 {
+            margin: 20px auto;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .ourworkbox {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .text img {
+            width: 100%;
+            height: auto;
+        }
+
+        .text img:hover {
+            width: 100%;
+            height: auto;
+        }
+
+        .services-grid2 {
+            width: 90%;
+            margin-bottom: 10px;
+            height: auto;
+        }
+    }
+
+
+    .ourwork0 {
+        justify-content: center;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .head123,
+    .head12 {
+        font-size: 32px;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+
+    .but {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* FIXES START HERE */
+
+    /* Fix: "Why CleverX" boxes were too narrow (50%) */
+    .whycleverxund {
+        width: 90%;
+    }
+
+    /* Fix: "Our Work" container had huge margins (180px) */
+    .ourworkbox1 {
+        margin: 20px auto;
+        flex-direction: column;
+        /* Stack them vertically */
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* Fix: "Our Work" boxes were fixed width (500px) */
+    .ourworkbox {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Fix: Images inside work boxes were fixed width (390px) */
+    .text img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Fix: Remove hover expansion on mobile to prevent layout shifting */
+    .text img:hover {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Fix: Statistics grid boxes */
+    .services-grid2 {
+        width: 90%;
+        margin-bottom: 10px;
+        height: auto;
+    }
+
+    .planpbox{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        padding-bottom: 35px;
+    }
+
+    .imgf{
+        justify-content: center;
+        height: auto;
+        width: 98%;
+    }
+
+    .price{
+        justify-content: center;
+        height: auto;
+        width: 90%;
+    }
+    .footer{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+    .footercon1{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+    .pages{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+    .pages01{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .imgf{
+        margin-bottom: 75px;
+    }
+    
+    .foot{
+        text-align: center;
+        height: auto;
+        width: 39%;
+        margin: auto;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .fft{
+        margin-top: 45px;
+    }
+
+    
+
+}

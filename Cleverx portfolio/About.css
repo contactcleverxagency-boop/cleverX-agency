@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: image-set("saraf.avif");
+    color: white;
+    font-family: "Mulish", sans-serif;
+}
+
+
+.body-text h5{
+    border: 1px solid gray ; 
+    display: inline;
+    width: fit-content;
+    padding: 9px;   
+    border-radius: 15px;
+    color: gray;
+    background-color: black ;
+}
+
+.body2{
+    text-align: center;
+    margin-top: 39px;
+}
+
+.body-text h1{
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.p1{
+    margin-top: 20px;
+}
+
+.p2{
+    margin-top: 5px;
+}
+
+.p1, .p2{
+    color: gray;
+}
+
+/*--------------BOX---------------*/
+
+/*--------------BOX---------------*/
+
+.box1 {
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px auto;
+    width: 90%;
+    border-radius: 9px;
+    justify-content: center;
+}
+
+.box1:hover{
+    height: auto;
+    transition: 900ms;
+}
+
+.box-content {
+    border: 1px solid gray;
+    background-color: rgba(74, 68, 68, 0.337);
+    width: 45%;              /* equal width */
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px 0;
+    height: auto;            /* remove fixed height */
+    cursor: pointer;
+}
+
+
+.box {
+    width: 100%;             /* full width inside */
+}
+
+.box h2, h3{
+    color: orangered;
+}
+
+.box h4,h5{
+    color: orange;
+}
+
+.box p{
+    color: white;
+}
+
+.run{
+    color: rgba(155, 19, 48, 0.592);
+}
+
+/*footer*/
+
+.footer{
+    background-color: rgb(27, 26, 26);
+    margin-top: 30%;
+    height: 460px;
+
+}
+
+.footercon1{
+    height: 320px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    margin-left: 30px;
+
+}
+.footercon1 h2{
+    padding-left: 3%;
+    padding-top: 17px;
+
+   
+}
+
+.footercon1 p{
+    color: gray;
+    padding-left: 17px;
+    margin-top: 15px;
+}
+
+.pages, .pages01{
+    margin-left: 15px;
+    width: 250px;
+    height: 250px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+}
+
+
+.pages p, .pages01{
+    margin-top: 10px;
+}
+
+.pages p{
+    cursor: pointer;
+    color: gray;
+}
+.pages p:hover{
+    color: white;
+}
+
+.pages01 p{
+    cursor: pointer;
+    color: gray;
+}
+.pages01 p:hover{
+    color: white;
+}
+
+.footer{
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 155px;
+}
+
+.footercon1{
+    margin-top: 135px;
+}
+
+.pages,.pages01{
+    margin-top: 135px;
+    margin-left: 190px;
+}
+
+.pages01 p{
+    margin-top: 15px;    
+}
+
+.hrr{
+    width: 100%;
+}
+
+/*foot*/
+
+.fft{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgb(27, 26, 26);
+}
+
+.foot, .foot4{
+    text-align: center;
+}
+
+.foot1, .foot4{
+    color: gray;
+}
+
+
+.pages h3, .pages01 h3{
+    color: white;    
+}
+
+
+.box-content:hover{
+    border: 4px white solid;
+    height: 405px;
+    transition: 900ms;
+}
+
+
+/*imgf before footer*/
+.imgfgh{
+    justify-content:space-around;
+    margin-top: 250px;
+    background-color: black;
+}
+.imgf{
+    margin-top: 49px;
+    width: 900px;
+    height: fit-content;
+    border: 1px rgb(83, 81, 81) solid;
+    align-self: auto;
+    background-image: image-set("saraf.avif");
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+.imgf h2{
+    margin-top: 150px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.imgf h3{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.imgf p{
+    padding-top: 10px;
+    color: gray;
+}
+
+.b01 , .b02{
+    margin-top: 15px;
+    padding: 15px;
+    margin-bottom: 150px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.b01{
+    background-color:#F54927;
+    border: #F54927 1px solid;
+    border-radius: 15px;
+}
+
+.b01:hover{
+    background-color: black;
+    border: rgb(73, 72, 72) 1px sold;
+    color: gray;
+    transition: .99.9s;
+}
+
+.b02{
+    background-color: black;
+    border: white 1px solid;
+    color: white;
+    border-radius: 15px;
+    
+}
+
+.b02:hover{
+    background-color: transparent;
+    border: 1px gray solid;
+    transition: .99.9s;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE - MOBILE HAMBURGER NAVBAR */
+@media (max-width: 600px) {
+    .headertext {
+        flex-direction: column;
+        gap: 10px;
+        width: 95%;
+        position: relative;
+        /* For hamburger positioning */
+    }
+
+    .box1 {
+        width: 95%;
+        margin: 40px auto;
+        justify-content: center;
+    }
+    
+    .box-content {
+        width: 100%;         /* full width on mobile */
+        margin-left: 0;
+    }
+    
+    .box {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Hide desktop menu, show hamburger */
+    ul {
+        display: none;
+        /* Hide menu by default on mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        padding: 20px;
+        border-radius: 0 0 15px 15px;
+        gap: 15px;
+        z-index: 1000;
+    }
+
+    /* Show menu when active */
+    ul.active {
+        display: flex;
+    }
+
+    /* Hamburger Icon */
+    .hamburger {
+        display: block !important;
+        /* Show hamburger on mobile */
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+        transition: 0.3s;
+    }
+
+    /* Hamburger animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    /*--------------------*/
+
+    .body-text h1{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    .p1{
+        margin-top: 26px;
+    }
+    
+    .p2{
+        margin-top: 7px;
+    }
+
+    .body-text p{
+        font-size: smaller;
+    }
+
+    .footer{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    /*-----------------*/
+    
+    .footercon1{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+    .pages{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+    .pages01{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .imgf{
+        margin-bottom: 75px;
+    }
+    
+    .foot{
+        text-align: center;
+        height: auto;
+        width: 39%;
+        margin: auto;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .fft{
+        margin-top: 45px;
+    }
+
+    .project-img img:hover{
+        width: 300px;
+        height: 170px;
+        transition: 0.5s;
+    }
+
+    /*----------------------*/
+
+    .project-img img:hover{
+        width: 300px;
+        height: 170px;
+        transition: 0.5s;
+    }
+
+    .box1{
+        border: 1px solid gray;
+        background-color: black;
+        display: flex;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: 29px;
+        border-radius: 9px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .box-content{
+        border: 1px solid gray;
+        width: auto;
+        padding: auto;
+        border-radius: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 5px;
+        height: auto;
+    }
+
+    .box{
+        width: 150px;
+        height: auto;
+        font-size: smaller;
+    }
+    .bbbb{
+        width: 150px;
+    }
+    .box-content:hover{
+        border: 1px white solid;
+        height: 405px;
+        transition: 0.5s;
+    
+    }
+    .boxes{
+        justify-content: center;
+    }
+     
+    .imgf{
+        margin-bottom: 75px;
+    }
+    .imgf{
+        justify-content: center;
+        height: auto;
+        width: 98%;
+    }
+}
